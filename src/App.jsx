@@ -191,9 +191,9 @@ function App() {
             </div>
             <div className='md:w-1/3 p-4'>
               <div className='border border-2 border-blue-900 rounded-lg p-8'>
-                <p className='text-sm ml-2'>React,Tailwind css,MongoDB</p>
+                <p className='text-sm'>React,Tailwind css,MongoDB</p>
                 <div className='flex items-center mb-3'>
-                  <h2 className='text-gray-900 text-xl font-medium ml-2'>
+                  <h2 className='text-gray-900 text-xl font-medium'>
                     Whistleblow App
                   </h2>
                 </div>
