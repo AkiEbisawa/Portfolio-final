@@ -41,25 +41,12 @@ function App() {
     }, 500); // 500 milliseconds
   };
 
-  const handleInfo = () => {
-    window.location.hash = 'Contact';
-  };
-
   const handleLocation = (event, ) => {
     event.preventDefault();
 
     window.location.hash = '';
   }
 
-  const handleDownloadPDF = () => {
-    const input = document.getElementById('resume');
-    html2canvas(input).then((canvas) => {
-      const imgData = canvas.toDataURL('image/png');
-      const pdf = new jsPDF();
-      pdf.addImage(imgData, 'PNG', 0, 0);
-      pdf.save('resume.pdf');
-    });
-  };
   
 
   return (
@@ -96,10 +83,12 @@ function App() {
             <p className='mb-8 leading-relaxed text-lg'>
               Web developer based in Vancouver</p>
             <div className='lg:text-start'>
-              <button 
-                onClick={handleClick}
-                className='text-white bg-blue-900 py-2 px-6 border-0 rounded text-lg hover:bg-blue-800'
-              >Download Resume</button>
+              <a href='Resume.pdf' download="Resume.pdf">
+                <button 
+                  onClick={handleClick}
+                  className='text-white bg-blue-900 py-2 px-6 border-0 rounded text-lg hover:bg-blue-800'
+                >Download Resume</button>
+              </a>
             </div>
           </div>
           <div className='md:w-1/2 lg:max-w-lg w-5/6'>
