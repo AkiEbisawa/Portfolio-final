@@ -85,7 +85,6 @@ function App() {
             <div className='lg:text-start'>
               <a href='Resume.pdf' download="Resume.pdf">
                 <button 
-                  onClick={handleClick}
                   className='text-white bg-blue-900 py-2 px-6 border-0 rounded text-lg hover:bg-blue-800'
                 >Download Resume</button>
               </a>
