@@ -103,7 +103,7 @@ function App() {
             </div>
           </div>
           <div className='md:w-1/2 lg:max-w-lg w-5/6'>
-            <img src="../public/Avator.jpg" alt=''/>
+            <img src="./img/Avator.jpg" alt=''/>
           </div>
         </div>
       </section>
@@ -115,7 +115,7 @@ function App() {
             <h1 className='text-2xl sm:text-3xl font-medium mb-20 text-blue-900'>ABOUT ME</h1>
             <div className='flex flex-col md:flex-row items-center'>
               <div className='md:w-1/2 lg:max-w-lg w-5/6 lg:mr-10'>
-                <img src="../public/portrait.jpg" alt='me'/>
+                <img src="./img/portrait.jpg" alt='me'/>
               </div>
                 <p className='md:w-1/2 flex-grow lg:pr-24 md:pr-16 sm:m-10 md:text-left'>
                 Hi! I'm Aki,I'm a web developer. And I use my past experience to ideate new features, implement wireframes, web design, and create high-performance software applications. I always try to write reusable and efficient code that anyone can understand. I especially enjoy the process of writing code and having fun with the website as it is being built. Currently, I'm focusing on UIUX design.
