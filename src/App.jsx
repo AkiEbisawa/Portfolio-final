@@ -243,8 +243,8 @@ function App() {
                 <h2 className='text-lg'>Phone :</h2>
               </div>
               <div className='flex flex-col text-start'>
-                <a href='mailto:akihthal0708pk@gmail.com' className='mb-5 text-lg hover:text-gray-900'>akihthal0708pk@gmail.com</a>
-                <a href='tel:2363353337' className='text-lg hover:text-gray-900'>236-335-3337</a>
+                <a href='mailto:akihthal0708pk@gmail.com' className='mb-5 text-lg hover:text-blue-900'>akihthak0708pk@gmail.com</a>
+                <a href='tel:2363353337' className='text-lg hover:text-blue-900'>236-335-3337</a>
               </div>
             </div>
             <div className='flex flex-row justify-center mt-10'>
